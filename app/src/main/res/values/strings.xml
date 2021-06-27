@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MamaApp</string>
+
+    <string name="mama_care">MamaApp</string>
+    <string name="pregnancy_week">Pregnancy week by week</string>
+    <string name="self_care">Self care tips for natural pregnancy symptoms</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="hygiene_during">Hygiene during pregnancy</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="how_to">How to prepare for labor</string>
+    <string name="substrances_to_avoid">Substrances to avoid during pregnancy</string>
+    <string name="your_personal">Your personal NoteBook</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_select_your_symptoms">Please Select your Symptoms</string>
+    <string name="abdominal_pain">Abdominal Pain</string>
+    <string name="fever">Fever</string>
+    <string name="severe_headache">Severe Headache</string>
+    <string name="diarhea">Diarhea</string>
+    <string name="fatigue">Fatigue</string>
+    <string name="nausea_and_vomiting">Nausea and vomiting</string>
+    <string name="muscle_pain">Muscle Pain</string>
+    <string name="chills">Chills</string>
+    <string name="blurred_vision">Blurred Vision</string>
+    <string name="swollen_feet_hands_and_face">Swollen feet hands and Face</string>
+    <string name="difficulty_urinating">Difficulty Urinating</string>
+    <string name="pain_below_the_ribs">Pain below the ribs</string>
+    <string name="heartburn">Heartburn</string>
+    <string name="rapid_heartbeat">Rapid Heartbeat</string>
+    <string name="vaginal_bleeding_at_20_weeks">Vaginal Bleeding at 20 weeks</string>
+    <string name="abdominal_cramps">Abdominal Cramps</string>
+    <string name="back_pain">Back Pain</string>
+    <string name="clotted_discharge_from_the_vaginal">Clotted discharge from the vaginal</string>
+    <string name="pain_on_the_right_side_of_the_abdominal">Pain on the right side of the abdominal</string>
+    <string name="submit">Submit</string>
+</resources>
