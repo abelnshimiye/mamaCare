@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MamaApp">
-        <activity android:name=".DiagnosisResult"></activity>
+        <activity android:name=".WebDiagnoseModel"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DiagnosisResult" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".NotebookActivity"

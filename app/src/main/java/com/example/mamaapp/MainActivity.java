@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.diagnosis:
-                startActivity(new Intent(getApplicationContext(), DiagnosisActivity.class));
+                startActivity(new Intent(getApplicationContext(), WebDiagnoseModel.class));
                 break;
 
             case R.id.hygiene_during_pre:
