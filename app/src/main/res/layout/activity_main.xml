@@ -431,13 +431,11 @@
                 android:id="@+id/constraintLayout3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="100dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginEnd="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/constraintLayout6"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -455,30 +453,31 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/cardview_light_background">
+
                         <ImageView
                             android:id="@+id/imageView20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_margin="50dp"
+                            android:alpha=".68"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/touchless"
-                            android:alpha=".68"
-                            android:layout_margin="50dp"/>
+                            app:srcCompat="@drawable/touchless" />
 
                         <TextView
                             android:id="@+id/textView_substrances"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:alpha=".8"
+                            android:background="@color/purple_200"
                             android:gravity="center_horizontal"
                             android:padding="5dp"
                             android:text="@string/substrances_to_avoid"
+                            android:textColor="@color/white"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:textColor="@color/white"
-                            android:background="@color/purple_200"
-                            android:alpha=".8"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent" />
@@ -500,38 +499,40 @@
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/your_personal_notebook"
-                    android:layout_width="135dp"
-                    android:layout_height="85dp"
-                    android:onClick="cardClicked"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/your_personal_notebook"-->
+<!--                    android:layout_width="135dp"-->
+<!--                    android:layout_height="85dp"-->
+<!--                    android:onClick="cardClicked"-->
+<!--                    android:background="@color/purple_200"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent">-->
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/cardview_light_background">
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@color/cardview_light_background">-->
 
-                        <TextView
-                            android:id="@+id/textView_your_pers"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:alpha=".8"
-                            android:background="@color/purple_200"
-                            android:gravity="center_horizontal"
-                            android:padding="5dp"
-                            android:text="@string/your_personal"
-                            android:textColor="@color/white"
-                            android:textSize="15sp"
-                            android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-                </androidx.cardview.widget.CardView>
+<!--                        <TextView-->
+<!--                            android:id="@+id/textView_your_pers"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:alpha=".8"-->
+<!--                            android:background="@color/purple_200"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            android:padding="5dp"-->
+<!--                            android:text="@string/your_personal"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="15sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

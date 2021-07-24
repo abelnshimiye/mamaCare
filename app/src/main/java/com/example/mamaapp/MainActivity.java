@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), AvoidancyActivity.class));
                 break;
 
-            case R.id.your_personal_notebook:
-                startActivity(new Intent(getApplicationContext(), NotebookActivity.class));
-                break;
+//            case R.id.your_personal_notebook:
+//                startActivity(new Intent(getApplicationContext(), NotebookActivity.class));
+//                break;
 
         }
 
